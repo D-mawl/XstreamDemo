@@ -22,12 +22,27 @@
             <artifactId>commons-lang3</artifactId>
             <version>${common-version}</version>
         </dependency>
+
+        <!-- 测试包-->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit-verison}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest-core</artifactId>
+            <version>${hamcrest-version}</version>
+        </dependency>
+
     </dependencies>
 
     <properties>
         <java-version>1.8</java-version>
         <xstream-version>1.4.9</xstream-version>
         <common-version>3.4</common-version>
+        <junit-verison>4.12</junit-verison>
+        <hamcrest-version>1.3</hamcrest-version>
     </properties>
 
     <build>

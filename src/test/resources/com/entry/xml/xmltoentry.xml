@@ -1,0 +1,11 @@
+<person name="rojer">
+    <phoneNumber>999</phoneNumber>
+    <address>
+        <street>newyork</street>
+        <houseNo>888</houseNo>
+    </address>
+    <address>
+        <street>toyo</street>
+        <houseNo>76767</houseNo>
+    </address>
+</person>
