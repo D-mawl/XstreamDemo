@@ -12,7 +12,7 @@ import com.thoughtworks.xstream.annotations.XStreamAlias;
 @XStreamAlias("address")
 public class Address {
     private String street;
-    private int houseNo;
+    private Integer houseNo;
 
     public String getStreet() {
         return street;
@@ -22,11 +22,11 @@ public class Address {
         this.street = street;
     }
 
-    public int getHouseNo() {
+    public Integer getHouseNo() {
         return houseNo;
     }
 
-    public void setHouseNo(int houseNo) {
+    public void setHouseNo(Integer houseNo) {
         this.houseNo = houseNo;
     }
 }
